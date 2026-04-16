@@ -13,6 +13,7 @@ permissions:
 
 jobs:
   sync:
+    # Keep this workflow in aicz.shop and copy the public site files from ai6638.com.
     if: github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
     steps:
